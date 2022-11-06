@@ -1,6 +1,6 @@
 const API ={
  KEY: '8f40a3de95bb42549fc58d2e64fbe19a',
- Value:'http://api.openweathermap.org/data/2.5/'
+ Value:'/api.openweathermap.org/data/2.5/'
 }
 
 const searchBox = document.querySelector('.search-box')
