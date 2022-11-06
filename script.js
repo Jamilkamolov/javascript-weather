@@ -18,7 +18,7 @@ const button = document.querySelector('.btn')
    console.log(searchBox.value)
   }
   }
-  searchBox.addEventListener('keypress', setQuery)
+  searchBox.addEventListener('keyup', setQuery)
 
   function setQuery(e){
     if(e.keyCode== 13){
